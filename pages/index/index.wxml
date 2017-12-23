@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container" style="background:url('{{bg_img}}');background-size: cover;">
+
+  
+  
+  <view class="list-btn">
+		<view class="item-btn" bindtap="gotoWish">许个愿吧~</view>
+    <view class="item-btn" bindtap="gotoLottery">惊喜盒子~</view>
+	</view>
+</view>

@@ -1,0 +1,13 @@
+
+<view class="container" style="background:url('{{bg_img}}');background-size: cover;">
+
+  
+   <view class="cards_mask {{undisplay2}}"  bindtap="gotoCards">
+   <view class="cards_header"> 圣诞快乐</view>
+   点开卡片吧~
+  </view>
+  <view class="cards {{undisplay1}}" style="background:url('{{card_img}}');background-size: cover;"> 
+  <view class="cards_text">{{cards_share}} </view>
+  <image src="{{tree_img}}" />
+	</view>
+</view>

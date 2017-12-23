@@ -1,0 +1,65 @@
+.container {
+    width: 100%;
+    height: 667px;
+    background-color: gray;
+    opacity: 0.8;
+    position: fixed;
+  }
+  
+  
+  .cards {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fefefe;
+    color: red;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .cards_text {
+    padding: 10px;
+    width:200px;
+    height: 165px;
+    
+  }
+  .cards_text_share {
+    display: none;
+  }
+  .cards_submit {
+    width:160px;
+    height: 24px;
+    margin-left: 10px;
+    background-color: #5BDF5E ;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fefefe
+
+  }
+
+  .cards>image {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      right: 0;
+      bottom: 1px;
+  }
+  .card-btns {
+    position: absolute;
+    top: 370px;
+    width: 220px;
+    height: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: auto;  
+  }
+  .btn_wish {
+      width: 90px;
+      height: 30px;
+      line-height: 30px;
+      background-color: red;
+      font-size: 15px;
+      color: #fefefe;
+  }

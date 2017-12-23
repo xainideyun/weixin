@@ -1,0 +1,18 @@
+
+<view class="container" style="background:url('{{bg_img}}');background-size: cover;">
+
+  
+  
+  <view class="cards"> {{cards_share}}
+  <form bindsubmit="bindFormSubmit">
+  <textarea class="cards_text {{cards_text_share}}" placeholder="Happy Christmas!" maxlength="100" placeholder-style="color:red;" name="textarea" focus="{{focus}}" />
+  <button class="cards_submit {{cards_text_share}}" form-type="submit"> 写好啦~ </button>
+  </form>
+
+  <image src="{{tree_img}}" />
+	</view>
+    <view class="card-btns">
+    <button class="btn_wish" bindtap="bindButtonTap">许个愿</button>
+    <button class="btn_wish" bindtap="bindButtonTap">写贺卡</button>
+    </view>
+</view>
